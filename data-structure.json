@@ -1,4 +1,9 @@
 {
+  "state": {
+    "PENDING": "PENDING",
+    "PAID": "PAID",
+    "COMPLETE": "COMPLETE"
+  },
   "resturants": {
     "resturant-1": {
       "name": "dawda",
@@ -12,19 +17,46 @@
       },
       "draft-order-items": {
         "dof-id-1": {
-          "userId": "dawdad",
-          "tableId": "table-id-1",
           "menuId": "meqw",
-          "amount": 2,
+          "quantity": 2,
           "name": "user-name",
           "memo": "ไม่เอาผัก",
-          "avatarURL": "htppdwa.dwda.img"
+          "user": {
+            "id": "user-id-1",
+            "name": "name",
+            "avatarUrl": "https://col.com"
+          }
         }
       },
       "tables": {
         "table-id-1": {
           "hardwardId": "hhghhh",
           "name": "table-1-name"
+        }
+      },
+      "orders": {
+        "order-id-1": {
+          "createdTime": 12345677890,
+          "paidTime": 1234567890,
+          "tableId": "table-id-1",
+          "userId": "user-id-1",
+          "state": "PENDING",
+          "order-items": {
+            "order-item-id-1": {
+              "menu": {
+                "name": "menu-1-name",
+                "id": "menu-id-1"
+              },
+              "memo": "ไม่เอาผัก",
+              "quantity": 2,
+              "unitPrice": 50,
+              "amount": 100
+            }
+          },
+          "total": {
+            "amount": 100,
+            "quantity": 2
+          }
         }
       }
     }
