@@ -1,0 +1,32 @@
+{
+  "resturants": {
+    "resturant-1": {
+      "name": "dawda",
+      "description": "dawda",
+      "menus": {
+        "menu-id-1": {
+          "name": "menu-1-name",
+          "price": 100,
+          "thumbnailUrl": "https://hello.world"
+        }
+      },
+      "draft-order-items": {
+        "dof-id-1": {
+          "userId": "dawdad",
+          "tableId": "table-id-1",
+          "menuId": "meqw",
+          "amount": 2,
+          "name": "user-name",
+          "memo": "ไม่เอาผัก",
+          "avatarURL": "htppdwa.dwda.img"
+        }
+      },
+      "tables": {
+        "table-id-1": {
+          "hardwardId": "hhghhh",
+          "name": "table-1-name"
+        }
+      }
+    }
+  }
+}
